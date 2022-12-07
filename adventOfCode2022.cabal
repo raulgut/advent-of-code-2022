@@ -1,0 +1,67 @@
+name:		adventOfCode2022
+version: 	1.0
+cabal-version:	>= 1.6
+description: 	Advent of Code Compilation
+license: 	AllRightsReserved
+license-file: 	LICENSE
+copyright:
+author:		Raul Gutierrez
+maintainer: 	r.gutierrez@upm.es
+build-type: 	Simple
+stability:
+homepage:
+package-url:
+synopsis:
+category:
+tested-with:
+source-repository head
+  type:     git
+  location: https://github.com/raulgut/advent-of-code-2022.git
+
+Executable one-one
+  buildable: True
+  main-is: one-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable one-two
+  buildable: True
+  main-is: one-two.hs
+  build-depends: base, multiset
+  hs-source-dirs: src
+
+Executable two-one
+  buildable: True
+  main-is: two-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable two-two
+  buildable: True
+  main-is: two-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable three-one
+  buildable: True
+  main-is: three-one.hs
+  build-depends: base, containers
+  hs-source-dirs: src
+
+Executable three-two
+  buildable: True
+  main-is: three-two.hs
+  build-depends: base, containers
+  hs-source-dirs: src
+
+Executable four-one
+  buildable: True
+  main-is: four-one.hs
+  build-depends: base, containers, parsec
+  hs-source-dirs: src
+
+Executable four-two
+  buildable: True
+  main-is: four-two.hs
+  build-depends: base
+  hs-source-dirs: src
